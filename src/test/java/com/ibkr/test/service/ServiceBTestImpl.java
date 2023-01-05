@@ -9,7 +9,7 @@ public class ServiceBTestImpl implements ServiceB {
     @Override
     public int readFromExternalSource() {
         // always return -1 when testing
-        System.out.println("Faking reading from external source, will return -1");
+        System.out.println("ServiceBTestImpl: Faking reading from external source, will return -1");
         return -1;
     }
 }
