@@ -27,7 +27,7 @@ public class MainTest_ProfileShowcase {
     }
 
     @Test
-    public void checkIfGetNumber1Is40() {
+    public void testCompute() {
         int result = myServiceA.compute(4);
         Assert.isTrue(result == -4, "result is not -4");
     }
